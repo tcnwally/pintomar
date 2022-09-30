@@ -30,13 +30,13 @@
 
 
 header{
-
+margin: 10px 10px 10px 10px;
     
 }
 
 header > h1{
 
-     display: inline-block;
+     text-align: center;
      font-family: var(--fontes2);
      color: rgb(217, 217, 0);
      font-size: 25px;
@@ -45,18 +45,12 @@ header > h1{
 
 header  img{
 
-     height: 10vw;
-     width: 10vw;
-   
-}
-
-#ppp{
-
     height: 157px;
-    width: 520px;
+    width: 576px;
     margin: -47px;
-
 }
+
+
 nav >a {
 
      text-align: right;
@@ -106,8 +100,7 @@ footer{
 
     
     background-color: black;
-    margin: 0px -35px 0px 0px;
-    padding: 30px;
-
+    margin: -14px -36px -1px 0px;
+    padding: 38px;
 }
     
