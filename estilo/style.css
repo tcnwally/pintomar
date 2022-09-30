@@ -87,16 +87,13 @@ body{
 
     background-color: var(--cor3);
  
-    margin: 8px 36px 65px -57px;
+    margin:  8px 36px 0px -57px;;
     padding: 0px -64px -31px 13px;
     
 }
 
 
-    main{
-
-    
-    }
+   
     #im1{
 
         margin: auto;
@@ -104,31 +101,12 @@ body{
 
     }
 
-   main > p{
-
-    background-color: #004959;
-    
-    font-family: var(--fontes2);
-    font-weight: bold;
-    font-size: 2em ;
-    line-height: 2em;
-    padding: 20px;
-    margin: auto;
-   }
-
-article > p{
-   
-
-    
-
-}
 
 footer{
 
     
     background-color: black;
-    margin: 370px 0px 0px 0px;
-
+    margin: 0px -35px 0px 0px;
     padding: 30px;
 
 }
