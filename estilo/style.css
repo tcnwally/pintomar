@@ -19,51 +19,129 @@
      --fontes4:'Sriracha', cursive;
  }
 
-     
-*{
+* {
 
-    margin: 0px;
-    padding: 0px;
-}
 
-header{
 
-    background-color: var(--cor3);
-    padding: 50px;
-    
-    
-    
-}
-header > img{
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
 
-    height: 100px;
-    position: absolute;
-    left: 0px;
-    top: 10px;
-   
-    
+  #foto {
 
-}
+    height: 8vh;
 
-header > h1{
+  }
 
-    display: block inline;
-    margin-left: 40px;
-    font-family: var(--fontes3);
+  nav h1 {
+    margin: auto;
+    font-family: var(--fontes2);
     font-size: 40px;
-    font-weight: bolder;
-    color: rgb(238, 226, 14);
-    text-shadow: 1px 1px 10px black;
-}
-nav{
-
-    background-color: #004959;
-    
-}
-
-nav >a {
-
- color: wheat;
- text-decoration: none;
- margin: 40px;
- margin auto
+    }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 8vh;
+  }
+  
+  main {
+    background: url(../imagens/bak.jpg) no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 999px) {
+    body {
+      overflow-x: hidden;
+    }
+    .nav-list {
+      position: absolute;
+      top: 8vh;
+      right: 0;
+      width: 50vw;
+      height: 92vh;
+      background: #23232e;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+      margin-left: 0;
+      opacity: 0;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  .nav-list.active {
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+  
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
