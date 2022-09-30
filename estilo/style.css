@@ -62,17 +62,19 @@ nav  {
 nav > a{
 
     margin: 0px -27px 22px 106px; 
-    background-color: yellow;
-    padding: 10px;
+    background-color: #1dddd4;
+    padding: 5px;
     border-radius: 20px;
-    box-shadow:inset -1px 1px 13px 1px black ;
+    box-shadow:inset -1px 0px 6px 1px black ;
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: var(--fontes2);
 }
 
 nav > a:hover{
 
 
-color: var(--cor5);
+color: var(--cor1);
 transition-duration: 1 ;
 }
 
