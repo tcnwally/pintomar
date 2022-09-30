@@ -49,6 +49,14 @@ header  img{
      width: 10vw;
    
 }
+
+#ppp{
+
+    height: 157px;
+    width: 520px;
+    margin: -47px;
+
+}
 nav >a {
 
      text-align: right;
@@ -78,11 +86,7 @@ transition-duration: 1 ;
 body{
 
     background-color: var(--cor3);
-    
-    min-height: 100vh;
-    background-image: url(../imagens/bak.jpg);
-background-size: cover;
-    background-repeat: no-repeat;
+ 
     margin: 8px 36px 65px -57px;
     padding: 0px -64px -31px 13px;
     
@@ -97,7 +101,7 @@ background-size: cover;
 
         margin: auto;
         padding: 20px;
-        
+
     }
 
    main > p{
