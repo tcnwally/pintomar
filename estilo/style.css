@@ -83,26 +83,32 @@ body{
     background-image: url(../imagens/bak.jpg);
 background-size: cover;
     background-repeat: no-repeat;
+    margin: 20px 20px 20px 20px;
+    padding: 0px -64px -31px 13px;
     
 }
 
 
     main{
 
-        padding: 10px 150px 31px 240px;
-        margin: 20px;
     
+    }
+    #im1{
+
+        margin: auto;
+        padding: 20px;
     }
 
    main > p{
 
     background-color: #004959;
-    margin-top: 20px;
+    
     font-family: var(--fontes2);
     font-weight: bold;
     font-size: 2em ;
     line-height: 2em;
     padding: 20px;
+    margin: auto;
    }
 
 article > p{
