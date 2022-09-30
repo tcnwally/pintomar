@@ -51,23 +51,22 @@ header  img{
 }
 
 
-nav >a {
+nav  {
 
-     text-align: right;
-     margin: 20px;
-    
+     
+    margin-bottom: 20px;
 }
 
 
 
 nav > a{
 
-    color: var(--cor1);
+    margin: 0px -27px 22px 106px; 
+    background-color: yellow;
     padding: 10px;
+    border-radius: 20px;
+    box-shadow:inset -1px 1px 13px 1px black ;
     text-decoration: none;
-    border-radius: 5px;
-    transition-duration: .5s ;
-    margin: 0px -27px 22px 106px;
 }
 
 nav > a:hover{
