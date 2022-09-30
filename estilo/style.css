@@ -107,6 +107,7 @@
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
+      overflow-y: hidden;
     }
     .nav-list {
       position: absolute;
@@ -155,4 +156,13 @@
   
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  
+  
+
+  footer{
+
+    background-color: black;
+    padding: 20px;
   }
