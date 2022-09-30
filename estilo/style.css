@@ -30,7 +30,7 @@
 
 
 header{
-margin: 10px 10px 10px 10px;
+margin: 0px 10px 10px 10px;
     
 }
 
@@ -39,7 +39,7 @@ header > h1{
      text-align: center;
      display: inline;
      font-family: var(--fontes2);
-     color: rgb(217, 217, 0);
+     color: rgb(217, 217, 0); 
      font-size: 25px;
      width: 576px;
     margin: -47px;
