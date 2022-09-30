@@ -31,6 +31,9 @@
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
+    text-shadow: 5px 6px 10px black;
+    font-family: var(--fontes4);
+    font-size: 20px;
   }
   
   a:hover {
@@ -51,8 +54,13 @@
 
   nav h1 {
     margin: auto;
-    font-family: var(--fontes2);
-    font-size: 40px;
+    font-family: var(--fontes4);
+    font-size: 50px;
+    text-shadow: 10px 10px 40px black;
+    background: -webkit-linear-gradient(left, rgb(3, 246, 177),rgb(0, 64, 255));
+    background: linear-gradient(to right,rgb(3, 246, 177),rgb(0, 64, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
   
   nav {
@@ -60,8 +68,9 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
+    background: var(--cor1);
     height: 8vh;
+    box-shadow: 10px 10px  solid black;
   }
   
   main {
@@ -78,6 +87,7 @@
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    
   }
   
   .mobile-menu {
@@ -103,7 +113,7 @@
       right: 0;
       width: 50vw;
       height: 92vh;
-      background: var(--cor3);
+      background: var(--cor1);
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
