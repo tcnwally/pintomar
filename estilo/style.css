@@ -170,7 +170,7 @@
 
   #botao{
 
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,4 +179,9 @@
     border-radius: 20px;
     padding: 10px;
     text-align: center;
+    box-shadow: inset 2px 2px 20px black;
+    position: absolute;
+    bottom: 400px;
+    left: 40px;
+    margin: auto;
   }
