@@ -109,6 +109,7 @@
       background-color: var(--cor3);
       overflow-x: hidden;
       overflow-y: hidden;
+      
     }
     .nav-list {
       position: absolute;
@@ -159,12 +160,23 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
-  
-  
-
   footer{
 
     background-color: black;
     padding: 20px;
     margin-bottom: 0px;
+    
+  }
+
+  #botao{
+
+    background-color: var(--cor2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
   }
